@@ -2,9 +2,10 @@
 let AWS = require('aws-sdk'),
     s3 = new AWS.S3(),
     documentClient = new AWS.DynamoDB.DocumentClient(); 
- 
-const accountSid = 'AC8f6276db07547b4c0d6553a48c4aade7';
-const authToken = '73c074ac9fdf62a513012f2bb0060b31';
+
+
+const accountSid = 'SID_TWILIO';
+const authToken = 'TOKEN_TWILIO';
 
 // require the Twilio module and create a REST client
 const client = require('twilio')(accountSid, authToken);
